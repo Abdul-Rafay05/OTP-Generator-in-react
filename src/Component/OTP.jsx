@@ -7,7 +7,7 @@ function Otp(props) {
     <>
       <div className="container flex flex-col justify-center items-center w-full h-screen gap-5 bg-gradient-to-r from-[#7E60BF] to-[#E4B1F0] text-white">
         <h1 className="uppercase text-3xl font-bold">{props.mainHead}</h1>
-        <div className="otp_container text-5xl border-solid border-2 border-black tracking-[5px] font-bold px-10 py-5 rounded-lg text-black">
+        <div className="otp_container text-5xl border-solid border-2 border-black tracking-[5px] font-bold px-10 py-5 rounded-lg text-white">
           {OTP}
         </div>
         <button
